@@ -6,14 +6,15 @@
 /* header part */
 .navbar
 {
-    background-color:#ffffff;
+    background-color:#F3F3F3;
 }
 .logoimg
 {
-    background-image: url("/images/rakibElectronics.png");
+    background-image: url("/images/logo.png");
     background-size: cover;
-    height: 80px;
+    height: 100px;
     width: 100px;
+    /* border-radius: 100%; */
 }
 .nav_search
 {
@@ -59,7 +60,7 @@ main{
 }
 .categoriesHeader
 {
-    background:linear-gradient(to right, #E7A670 , #CE4F6C);
+    background:linear-gradient(to right, #6366B5 , #4A4983);
     border: none;
     border-radius: 5px 5px 0px 0px;
     font-size: 20px;
@@ -75,14 +76,7 @@ main{
     font-size: 12px;
     /* padding: 0px 5px 0px 5px; */
 }
-.items
-{
-    /* text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 0px 5px 0px 5px; */
-}
+
 .carosolImg
 {
     height: 350px;
@@ -91,4 +85,52 @@ main{
 .carosolImg img
 {
     background-size: cover;
+}
+.newArrivals
+{
+    background-color: #F3F3F3;
+    border-radius: 10px;
+}
+.newArrivalHead 
+{
+    border-bottom: 2px solid gray;
+}
+.newArrivalHead button
+{
+    background-color: #4A4983;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.newProducts
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.newProducts img
+{  
+     height: 320px;
+    width: 250px;
+    align-items: center;
+    background-size: cover;
+}
+.newProducts button
+{
+    background-color: #4A4983;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
