@@ -8,9 +8,8 @@
 {
     background-color:#F3F3F3;
 }
-.logoimg
+.logoimg img
 {
-    background-image: url("/images/logo.png");
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -45,9 +44,7 @@
 }
 /* main content */
 /* category */
-main{
-    /* background-color:#eed6c362 ; */
-}
+
 .content
 {
     height: 400px;
@@ -132,5 +129,30 @@ main{
     padding: 4px 12px;
     border: none;
     border-radius: 10px;
+    color: white;
+}
+
+/* footer element */
+
+.footerElement
+{
+    background-color: #3c3c52;
+    color: white;
+}
+.footerElement ul
+{
+    list-style-type: none;
+    
+}
+.footerElement li
+{
+    margin-top: 15px;
+
+}
+.footerBottom
+{
+    border-top: 1px solid white;
+    height: 50px;
+    background-color: #3c3c52;
     color: white;
 }
