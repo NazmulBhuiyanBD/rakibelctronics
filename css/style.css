@@ -38,11 +38,22 @@
     border-radius: 0px 10px 10px 0px;
 
 }
+
+.nav_right a
+{
+    text-decoration: none;
+    color: #4A4983;
+}
+.nav_right a:hover
+{
+    color: #808097;
+}
 .cart i
 {
     text-align: center;
 }
 /* main content */
+
 /* category */
 
 .content
