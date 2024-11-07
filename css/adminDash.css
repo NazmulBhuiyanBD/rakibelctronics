@@ -66,6 +66,11 @@
     margin-top: 10px;
     background-color: white;
 }
+/* dashboard */
+.dashboard
+{
+    display: none;
+}
 .navbar
 {
     height: 100px;
@@ -92,12 +97,12 @@
 
 /* content  */
 .contentHead
-{   margin-left: 50px;
-    margin-bottom: 50px;
+{   margin:0px 50px 0px 50px;
+    margin-bottom: 15px;
     padding: 10px 10px 10px 30px;
     font-size: 14px;
     height: 50px;
-    width: 950px;
+    /* width: 950px; */
     background-color:#3C3C52;
     color: white;
     border-radius: 15px;
@@ -138,4 +143,65 @@
     padding: 3px;
     margin: 3px;
     border-radius: 0px 10px 10px 0px;
+}
+
+.graph
+{
+    height: 400px;
+    width: 800px;
+}
+
+/* admin dashboard products */
+.dashProducts{
+    display: none;
+}
+.productHeader
+{
+    margin:0px 50px 50px 50px;
+}
+.productHeader button
+{
+    background-color: #3C3C52;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.productList
+{
+    margin:0px 50px 0px 50px;
+}
+
+/* admin dashboard order */
+.orders
+{
+    display: none;
+}
+.orderHeader
+{
+    margin:0px 50px 50px 50px;
+}
+.orderHeader button
+{
+    background-color: #3C3C52;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.orderList
+{
+    margin:0px 50px 0px 50px;
+}
+
+/* admin dashboard sales  */
+.sales
+{
+    display: none;
+}
+.salesHeader
+{
+    margin:0px 50px 50px 50px;
+}
+.salesGraph
+{
+    margin:0px 50px 50px 50px;
 }
